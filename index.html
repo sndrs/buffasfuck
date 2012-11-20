@@ -106,14 +106,16 @@
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
       <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
       <script>
-      function _pos(){
-      	console.log(100 - Math.ceil(Math.random()*200))
-      	return 100 - Math.ceil(Math.random()*200);
-      };
+	      function _pos(){
+	      	return 100 - Math.ceil(Math.random()*200);
+	      };
       	$(function(){
       		$('body').css({
-      			'background-image' : 'url(/img/bg/blue-' + Math.ceil(Math.random()*5) + '.png), url(/img/bg/pink-' + Math.ceil(Math.random()*5) + '.png), url(/img/bg/blue-' + Math.ceil(Math.random()*5) + '.png), url(/img/bg/pink-' + Math.ceil(Math.random()*5) + '.png)',
-      			'background-position': '' + _pos() + '% ' + _pos() + '%, ' + _pos() + '% ' + _pos() + '%, ' + _pos() + '% ' + _pos() + '%, ' + _pos() + '% ' + _pos() + '% '
+      			'background' :
+      				'url("/img/bg/blue-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%, ' +
+      				'url("/img/bg/blue-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%, ' +
+      				'url("/img/bg/pink-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%, ' +
+      				'url("/img/bg/pink-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%'
       		})
       	})
       </script>
