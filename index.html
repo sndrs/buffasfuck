@@ -10,8 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/screen.css">
 
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
@@ -20,35 +19,60 @@
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
 
-			<a href="http://trspt.net"><h1>Transept</h1></a>
-			<h2>Buff as Fuck</h2>
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-      <script>
-	      function _pos(){
-	      	return 100 - Math.ceil(Math.random()*200);
-	      };
+		<h1><em>Buff as Fuck</em> by Transept</h1>
+		<div id="content">
+			<h2>Cat. TRSPT002</h2>
+			<dl>
+				<dt>Artist</dt>
+				<dd><a href="http://trspt.net">Transept</a></dd>
+				<dt>Title</dt>
+				<dd>Buff as Fuck</dd>
+				<dt>Label</dt>
+				<dd><a href="http://dronehenge.com">Dronehenge Recordings</a></dd>
+				<dt>Release date</dt>
+				<dd>25 March, 2013</dd>
+				<dt>Mixed</dt>
+				<dd><a href="http://lukeabbottmusic.com">Luke Abbott</a></dd>
+				<dt>Mastered</dt>
+				<dd><a href="http://www.clunk.de">Rashad Becker</a></dd>
+				<dt>Formats</dt>
+				<dd>LP / CD / Download</dd>
+				<dt>PR</dt>
+				<dd><a href="mailto:sean@mutante.co.uk">sean@mutante.co.uk</a></dd>
+				<dt>Press release</dt>
+				<dd><a href="/assets/buff_as_fuck-press_release-jan_2013.txt">download</a></dd>
+			</dl>
+			<iframe id="soundcloud" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F1166178%3Fsecret_token%3Ds-GSrTJ&amp;color=b1c7e6&amp;auto_play=false&amp;show_artwork=true"></iframe>
+			<iframe id="ss_video" src="http://player.vimeo.com/video/52951623?color=b1c7e6" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<!--iframe src="http://player.vimeo.com/video/57008386?color=b1c7e6" height="216" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe-->
+		</div>
+
+	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+		<script>
       	$(function(){
-      		$('body').css({
-      			'background' :
-      				'url("/img/bg/blue-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%, ' +
-      				'url("/img/bg/blue-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%, ' +
-      				'url("/img/bg/pink-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%, ' +
-      				'url("/img/bg/pink-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%'
-      		})
+      		if(((window.innerWidth > 0) ? window.innerWidth : screen.width) > 480){
+			      var _pos = function(){return 100 - Math.ceil(Math.random()*200)};
+	      		$('body').css({
+	      			'background' :
+	      				'url("/img/bg/blue-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%, ' +
+	      				'url("/img/bg/blue-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%, ' +
+	      				'url("/img/bg/pink-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%, ' +
+	      				'url("/img/bg/pink-' + Math.ceil(Math.random()*5) + '.png") no-repeat ' + _pos() + '% ' + _pos() + '%'
+	      		})
+      		}
       	})
       </script>
-
-			<script type="text/javascript">
-			  var _gaq = _gaq || [];
-			  _gaq.push(['_setAccount', 'UA-36463064-1']);
-			  _gaq.push(['_setDomainName', 'buffasfuck.me']);
-			  _gaq.push(['_trackPageview']);
-			  (function() {
-			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			  })();
-			</script>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-36463064-1']);
+		  _gaq.push(['_setDomainName', 'buffasfuck.me']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
     </body>
 </html>
