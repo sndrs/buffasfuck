@@ -121,19 +121,26 @@ h1 {
   padding-top: 13.5em;
 }
 
-/* line 50, ../scss/screen.scss */
+/* line 51, ../scss/screen.scss */
+#attribution {
+  text-align: center;
+  display: block;
+  font-size: 11px;
+}
+
+/* line 57, ../scss/screen.scss */
 h2 {
   margin-bottom: 1.5em;
   text-align: center;
 }
 
-/* line 55, ../scss/screen.scss */
+/* line 62, ../scss/screen.scss */
 #purchase {
   overflow: hidden;
   *zoom: 1;
   padding-bottom: 1.5em;
 }
-/* line 58, ../scss/screen.scss */
+/* line 65, ../scss/screen.scss */
 #purchase li {
   width: 30%;
   display: inline-block;
@@ -143,27 +150,27 @@ h2 {
   margin-right: 2%;
   margin-left: 2%;
 }
-/* line 66, ../scss/screen.scss */
+/* line 73, ../scss/screen.scss */
 #purchase li:last-child, #purchase li:first-child {
   padding: 0;
   margin: 0;
   border: none;
 }
-/* line 72, ../scss/screen.scss */
+/* line 79, ../scss/screen.scss */
 #purchase h3 {
   font-size: 1.5em;
 }
-/* line 74, ../scss/screen.scss */
+/* line 81, ../scss/screen.scss */
 #purchase h3 small {
   font-size: 0.6em;
   margin-left: 1em;
 }
-/* line 79, ../scss/screen.scss */
+/* line 86, ../scss/screen.scss */
 #purchase button {
   margin-top: 1em;
 }
 
-/* line 84, ../scss/screen.scss */
+/* line 91, ../scss/screen.scss */
 dl {
   margin: 0;
   overflow: hidden;
@@ -174,7 +181,7 @@ dl {
   border-top: 1px solid rgba(231, 231, 230, 0.59);
 }
 
-/* line 91, ../scss/screen.scss */
+/* line 98, ../scss/screen.scss */
 dt {
   float: left;
   clear: left;
@@ -182,12 +189,12 @@ dt {
   padding: 0;
   font-weight: bold;
 }
-/* line 97, ../scss/screen.scss */
+/* line 104, ../scss/screen.scss */
 dt::after {
   content: ':';
 }
 
-/* line 102, ../scss/screen.scss */
+/* line 109, ../scss/screen.scss */
 dd {
   margin: 0;
   display: inline-block;
@@ -196,62 +203,62 @@ dd {
   text-align: right;
 }
 
-/* line 110, ../scss/screen.scss */
+/* line 117, ../scss/screen.scss */
 dt, dd {
   border-top: 1px solid rgba(231, 231, 230, 0.59);
 }
 
-/* line 114, ../scss/screen.scss */
+/* line 121, ../scss/screen.scss */
 dt:first-child {
   border-top: none;
 }
-/* line 116, ../scss/screen.scss */
+/* line 123, ../scss/screen.scss */
 dt:first-child + dd {
   border-top: none;
 }
 
-/* line 121, ../scss/screen.scss */
+/* line 128, ../scss/screen.scss */
 iframe {
   width: 100%;
   margin-bottom: 1.5em;
 }
-/* line 124, ../scss/screen.scss */
+/* line 131, ../scss/screen.scss */
 iframe + dl {
   border-top: none;
 }
 
-/* line 129, ../scss/screen.scss */
+/* line 136, ../scss/screen.scss */
 #soundcloud {
   height: 403px;
 }
 
-/* line 133, ../scss/screen.scss */
+/* line 140, ../scss/screen.scss */
 .video {
   height: 243px;
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 138, ../scss/screen.scss */
+  /* line 145, ../scss/screen.scss */
   #content {
     left: 3em;
   }
 
-  /* line 141, ../scss/screen.scss */
+  /* line 148, ../scss/screen.scss */
   dl {
     font-size: 0.813em;
     line-height: 1.846em;
   }
 
-  /* line 145, ../scss/screen.scss */
+  /* line 152, ../scss/screen.scss */
   #purchase h3 {
     font-size: 1.5em;
   }
-  /* line 147, ../scss/screen.scss */
+  /* line 154, ../scss/screen.scss */
   #purchase h3 small {
     font-size: 0.438em;
     margin-left: 1em;
   }
-  /* line 152, ../scss/screen.scss */
+  /* line 159, ../scss/screen.scss */
   #purchase p {
     font-size: 12px;
     line-height: 20px;
