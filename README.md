@@ -1,1 +1,1 @@
-Website for http://buffasfuck.me.
+Website for http://buffasfuck.me
